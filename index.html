@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Car Game</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+    <body>
+    <div id="content" style="display: none;">
+        <div id="head">
+            <p id="htit">Rules of thr road</p>
+        </div>
+        <div id="timeScore">
+            <div id="time1">
+               <div class="sc">0:00</div>
+               <div class="btable">
+                   <div id='d1'>time</div>
+               </div>
+            </div>
+            <div id="score">
+                <div class="sc">0</div>
+                <div class="btable">
+                    <div id='d2'>score</div>
+                </div>
+            </div>
+        </div>
+        <div id="lineFrame">
+            <div id="circ1"></div>
+            <div id="circ2"></div>
+            <div id="progress"></div>
+            <div id="flag"></div>
+        </div>
+        <div id="gamecontent">
+            <div id=canvascont></div>
+        </div>
+        <div id="footer"></div>
+        <div id="tableShow" style="display: none">
+            <img src="">
+        </div>
+        <div id="gameStart" style="display: block">
+            <p id="rulTxt">RULES</p>
+            <div id=rules>
+                <p>Your goal in the game is to get to finish the course as fast as you can, and meanwhile, score the highest. Dodge the cones and traffic signs. Increase your score by picking up the sign matching the one displayed above the road. When you run over the right sign your score increases and your car becomes slightly faster. When you hit a cone, your speed is reset to the initial one. When you pick up the wrong sign, your car slightly decreases and you get a score penalty.</p>
+            </div>
+            <div id="startBt">
+                <div id="triangle"></div>
+                <p>GAME</p>
+            </div>
+        </div>
+        <div id="newGame" style="display: none">
+            <div id="resetBt"><p>New Game</p></div>
+        </div>
+    </div>
+    <script src="js/kinetic.js"></script>
+    <script src="js/carcontroll.js"></script>
+    <script src="js/score.js"></script>
+    <script src="js/main.js"></script>
+    </body>
+</html>
